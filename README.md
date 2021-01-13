@@ -1,8 +1,15 @@
-# Getting Started with Create React App
+# BearthDay SPA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bearthday is a single page application that fetches datat from the Nasa Api.
+The data is use to retrieve images closest to the date that has occured over the past year. The project is built using create-react-app, typescript, jest, and bootstrap. This project requires the use of NPM and node.js.
 
-## Available Scripts
+## How to install and run application
+
+1. Clone the repo
+2. Install project dependencies
+3. Run application in development node using node.js
+
+## Available Scripts From Create React App
 
 In the project directory, you can run:
 
