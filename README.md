@@ -1,13 +1,22 @@
 # BearthDay SPA
 
-Bearthday is a single page application that fetches datat from the Nasa Api.
-The data is use to retrieve images closest to the date that has occured over the past year. The project is built using create-react-app, typescript, jest, and bootstrap. This project requires the use of NPM and node.js.
+Bearthday is a single page application that fetches data from the Nasa Api.
+The data is used to retrieve images closest to the date that has occured over the past year. The project is built using create-react-app, typescript, jest, and bootstrap. This project requires the use of NPM and node.js. In development mode the project will start on port 3000.
+
+View the project online: [https://bearthday-spa.netlify.app/](https://bearthday-spa.netlify.app/)
+
+## Functionality
+
+The application takes in a previous date in history and looks for if the nasa Api has an image for the date matching or greater that the date. If matching date was found the word earth in the header of the application will be bolded and green. If the next closest date was picked then the font in the header will be left as unbolded and black.
 
 ## How to install and run application
 
 1. Clone the repo
+   ` git clone git@github.com:TimothyZwart/bearthday-spa.git`
 2. Install project dependencies
-3. Run application in development node using node.js
+   ` npm install`
+3. Run application in development mode using node.js
+   `npm run start`
 
 ## Available Scripts From Create React App
 
